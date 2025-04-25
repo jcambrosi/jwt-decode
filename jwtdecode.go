@@ -1,4 +1,4 @@
-// jca 2023 jwt-decode does raw decode of jwt tokens without validation, prints claims
+// jca 2023-2025 jwt-decode does raw decode of jwt tokens without validation, prints claims
 // this is for development/test use only
 
 package main
@@ -15,7 +15,6 @@ import (
 func main() {
 
 	var tokenString string
-	// var tokenString = "a jwt token goes here"
 
 	// read jwt token from console
 	fmt.Println("jwtdecode - raw decoding of a jwt token, no validations, prints claims, for development use only")
